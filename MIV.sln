@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MedicalImageViewer", "MedicalImageViewer\MedicalImageViewer.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphics", "Graphics\Graphics.vcxproj", "{A81E228C-5E08-4CD9-B560-2763F203CE16}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IODicom", "IODicom\IODicom.vcxproj", "{77A4CB85-182D-46A4-AA09-BC4578769D32}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MivQt", "MivQt\MivQt.vcxproj", "{A8BB8681-044F-415A-A9E5-AFACF12BE78B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{A81E228C-5E08-4CD9-B560-2763F203CE16}.Debug|x64.ActiveCfg = Debug|x64
+		{A81E228C-5E08-4CD9-B560-2763F203CE16}.Debug|x64.Build.0 = Debug|x64
+		{A81E228C-5E08-4CD9-B560-2763F203CE16}.Release|x64.ActiveCfg = Release|x64
+		{A81E228C-5E08-4CD9-B560-2763F203CE16}.Release|x64.Build.0 = Release|x64
+		{77A4CB85-182D-46A4-AA09-BC4578769D32}.Debug|x64.ActiveCfg = Debug|x64
+		{77A4CB85-182D-46A4-AA09-BC4578769D32}.Debug|x64.Build.0 = Debug|x64
+		{77A4CB85-182D-46A4-AA09-BC4578769D32}.Release|x64.ActiveCfg = Release|x64
+		{77A4CB85-182D-46A4-AA09-BC4578769D32}.Release|x64.Build.0 = Release|x64
+		{A8BB8681-044F-415A-A9E5-AFACF12BE78B}.Debug|x64.ActiveCfg = Debug|x64
+		{A8BB8681-044F-415A-A9E5-AFACF12BE78B}.Debug|x64.Build.0 = Debug|x64
+		{A8BB8681-044F-415A-A9E5-AFACF12BE78B}.Release|x64.ActiveCfg = Release|x64
+		{A8BB8681-044F-415A-A9E5-AFACF12BE78B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

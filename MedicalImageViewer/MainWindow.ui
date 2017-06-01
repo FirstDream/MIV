@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowClass</class>
+ <widget class="QMainWindow" name="MainWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSystem">
+    <property name="title">
+     <string>系统</string>
+    </property>
+    <addaction name="actionBrowse"/>
+    <addaction name="actionMPrint"/>
+    <addaction name="actionSPrint"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionBurn"/>
+    <addaction name="actionSearch"/>
+    <addaction name="actionUpload"/>
+   </widget>
+   <addaction name="menuSystem"/>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QToolBar" name="fileToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen"/>
+   <addaction name="actionExport"/>
+   <addaction name="actionBurn"/>
+   <addaction name="actionSearch"/>
+   <addaction name="actionUpload"/>
+  </widget>
+  <widget class="QToolBar" name="observeToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionTranslate"/>
+   <addaction name="actionRotate"/>
+   <addaction name="actionScale"/>
+   <addaction name="actionMagnifier"/>
+   <addaction name="actionReset"/>
+  </widget>
+  <widget class="QToolBar" name="measureToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionDistance"/>
+   <addaction name="actionPolygon"/>
+   <addaction name="actionAngle"/>
+  </widget>
+  <widget class="QToolBar" name="functionToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionWindowLevel"/>
+   <addaction name="actionSlide"/>
+   <addaction name="actionScoutPoint"/>
+   <addaction name="actionMPR"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpen">
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>导出</string>
+   </property>
+   <property name="toolTip">
+    <string>导出文件</string>
+   </property>
+  </action>
+  <action name="actionBurn">
+   <property name="text">
+    <string>刻录</string>
+   </property>
+   <property name="toolTip">
+    <string>刻录文件</string>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="text">
+    <string>查找</string>
+   </property>
+   <property name="toolTip">
+    <string>查找检查</string>
+   </property>
+  </action>
+  <action name="actionUpload">
+   <property name="text">
+    <string>回传</string>
+   </property>
+   <property name="toolTip">
+    <string>回传文件</string>
+   </property>
+  </action>
+  <action name="actionWindowLevel">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>窗值</string>
+   </property>
+   <property name="toolTip">
+    <string>调窗</string>
+   </property>
+  </action>
+  <action name="actionNegative">
+   <property name="text">
+    <string>负片</string>
+   </property>
+   <property name="toolTip">
+    <string>负片</string>
+   </property>
+  </action>
+  <action name="actionDefaultWindow">
+   <property name="text">
+    <string>默认窗值</string>
+   </property>
+   <property name="toolTip">
+    <string>默认窗值</string>
+   </property>
+  </action>
+  <action name="actionTranslate">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>平移</string>
+   </property>
+   <property name="toolTip">
+    <string>平移</string>
+   </property>
+  </action>
+  <action name="actionScale">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>缩放</string>
+   </property>
+  </action>
+  <action name="actionReset">
+   <property name="text">
+    <string>重置</string>
+   </property>
+  </action>
+  <action name="actionMPR">
+   <property name="text">
+    <string>MPR</string>
+   </property>
+   <property name="toolTip">
+    <string>MPR</string>
+   </property>
+  </action>
+  <action name="actionSlide">
+   <property name="text">
+    <string>滑动翻页</string>
+   </property>
+  </action>
+  <action name="actionMagnifier">
+   <property name="text">
+    <string>放大镜</string>
+   </property>
+  </action>
+  <action name="actionScoutPoint">
+   <property name="text">
+    <string>定位点</string>
+   </property>
+  </action>
+  <action name="actionRotate">
+   <property name="text">
+    <string>旋转</string>
+   </property>
+   <property name="toolTip">
+    <string>旋转</string>
+   </property>
+  </action>
+  <action name="actionDistance">
+   <property name="text">
+    <string>长度</string>
+   </property>
+   <property name="toolTip">
+    <string>长度测量</string>
+   </property>
+  </action>
+  <action name="actionAngle">
+   <property name="text">
+    <string>角度</string>
+   </property>
+   <property name="toolTip">
+    <string>角度测量</string>
+   </property>
+  </action>
+  <action name="actionPolygon">
+   <property name="text">
+    <string>多边形</string>
+   </property>
+   <property name="toolTip">
+    <string>多边形测量</string>
+   </property>
+  </action>
+  <actiongroup name="systemActGroup">
+   <action name="actionBrowse">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>浏览</string>
+    </property>
+   </action>
+   <action name="actionMPrint">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>CT/MR 打印</string>
+    </property>
+    <property name="toolTip">
+     <string>CT/MR 等多片打印</string>
+    </property>
+   </action>
+   <action name="actionSPrint">
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>CR/DR/DX 打印</string>
+    </property>
+    <property name="toolTip">
+     <string>CR/DR/DX 等少片打印</string>
+    </property>
+   </action>
+  </actiongroup>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MedicalImagingViewer.qrc"/>
+ </resources>
+ <connections/>
+</ui>
